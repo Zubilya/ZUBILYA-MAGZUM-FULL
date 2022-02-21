@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.8">
+<meta charset="utf-8">
+<link rel="stylesheet" href="main2.css"
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Create Account</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="zubilya09" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="zubilya@list.ru" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password check</label>
+			<input type="password" placeholder="Password two" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+<script>
+function pushUpMessage() {
+
+    document.getElementById('sound').play();
+
+}
+</script>
+        <button id="snackbar" onclick="pushUpMessage()">Submit</button>
+        <audio id="sound" src="sound.wav"></audio>
+</div>
+
+<div class="social-panel-container">
+	<div class="social-panel">
+		<p>Created with<i class="fa fa-heart"></i>by Magzum Zubilya</p>
+		<button class="close-btn"><i class="fas fa-times"></i></button>
+		<h4>Get in touch on</h4>
+		<ul>
+			<li>
+				<a href="https://t.me/soIL1tUde" target="_blank">
+					<i class="telegram"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://vk.com/zmagzum" target="_blank">
+					<i class="instagram"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/channel/UCxqNF6fFyYfAfb6rCR_Qf5w" target="_blank">
+					<i class="youtube"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://vk.com/zmagzum" target="_blank">
+					<i class="vkontakte"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+<!--GET IN TOUCH-->
+</div>
+<button class="floating-btn">
+	Get in Touch
+</button>
+    
+<script src="main.js"></script>
+</body>
+</html>

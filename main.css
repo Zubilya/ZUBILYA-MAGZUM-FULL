@@ -1,0 +1,176 @@
+/*NAVBAR*/
+.navbar-defaul {
+    color: aqua;
+}
+
+.images {
+    max-width: 15000px;
+}
+
+/*PARA*/
+.para {
+    color: #B3484B;
+    text-align: center;
+}
+
+.para1 {
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D04949;
+    
+}
+
+/*CAROUSEL*/
+.products {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: serif;
+}
+
+.service {
+    width: 100%;
+    padding: 1px 0px;
+}
+
+/*BOX*/
+.title h2{
+    color: black;
+    font-size: 60px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background: #EFC6C1;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #D04949;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: #B7363A;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: #F8B6B8;
+    cursor: pointer;
+}
+
+/*PHOTO 3*/
+.section {
+    padding: 20px 0;
+    
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    
+    text-align: center;
+}
+
+.section__suptitle {
+    font-family: cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section__text {
+    font-size: 15px;
+    color: black;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item {
+    position: relative;
+}
+
+.about__item:hover .about__img img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about__item:hover .about__img img {
+    opacity: 0.4;
+}
+
+.about__item:hover .about__text {
+    opacity: 1;
+}
+
+.about__img {
+    background: linear-gradient(to bottom, #D461E6, #EFACE9);
+    
+    transition: transform .2s linear;
+}
+
+.about__img img {
+    display: block;
+    transition: opacity .1s linear;
+}
+
+.about__text {
+    width: 100%;
+    
+    font-size: 25px;
+    color: purple;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    
+    position: absolute;
+    top: 50;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -150px, 0);
+    
+    transition: opacity .1s linear;
+}
